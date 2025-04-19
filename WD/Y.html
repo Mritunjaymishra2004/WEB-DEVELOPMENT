@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Opossum Search</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+}
+#search-container {
+  width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
+#search-box {
+  width: 600px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+#search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#logo {
+  width: 300px;
+  margin-bottom: 20px;
+}
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+</style>
+</head>
+<body>
+<div id="search-container">
+  <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Opossum_2.jpg/292px-Opossum_2.jpg" alt="Opossum Logo">
+  <form action="https://www.google.com/search" method="get">
+    <input type="text" id="search-box" name="q" placeholder="Search...">
+    <input type="submit" id="search-button" value="Search">
+  </form>
+</div>
+
+<script>
+  document.querySelector('form').addEventListener('submit', function(event) {
+    let searchTerm = document.getElementById('search-box').value;
+    searchTerm = searchTerm.trim(); //remove leading/trailing whitespace
+    if(searchTerm.length > 0) {
+      this.querySelector('[name="q"]').value = searchTerm + " opossum";
+    }
+    
+  });
+</script>
+
+
+<footer>
+Powered by Mritunjay Mishra
+</footer>
+
+</body>
+</html>
+
+
+<!-- https://colab.research.google.com/github/google-gemini/cookbook/blob/main/templates/aistudio_gemini_prompt_freeform.ipynb -->
+
+
+<!-- AIzaSyDoT4FhZG0ZvutnrZXi32OAOP5ZH341cxI - Api key->

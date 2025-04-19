@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries: width</title>
+    <style>
+        html {
+            font-size: 1em;
+        }
+
+        /* @media screen and (width: 600px) {
+            body {
+                color: red;
+            } 
+        }        */
+        
+        /* @media (orientation: landscape) {
+            body {
+                color: rebeccapurple;
+            }
+        }    */
+        
+        /* @media screen and (max-width: 600px) and (orientation: landscape) {
+            body {
+                color: blue;
+            }
+        } */
+
+        /* @media screen and (max-width: 600px),
+        screen and (orientation: landscape) {
+            body {
+                color: yellow;
+            }
+        } */
+
+        @media not all and (orientation: landscape) {
+            body {
+                color: red;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem doloremque libero, voluptates sequi repellat blanditiis ut architecto voluptatibus quae praesentium aliquam inventore, repellendus aspernatur consequuntur quasi laudantium adipisci dignissimos culpa!
+    Reiciendis explicabo ullam qui nulla. Consectetur vel repellat veniam eius molestias, voluptatem necessitatibus voluptas officiis amet eligendi soluta impedit minima architecto omnis itaque. Distinctio aperiam quas dolor, ducimus illo officiis.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit et numquam ducimus eaque facere saepe vitae architecto sequi, soluta reiciendis, iste optio, neque provident excepturi nemo aliquid sed repellat doloribus!</p>
+</body>
+</html>
