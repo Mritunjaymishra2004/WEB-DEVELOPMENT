@@ -1,0 +1,618 @@
+/* 
+h1{
+    color:blue;
+}
+
+
+p{
+    color:chocolate;
+}
+
+
+button{
+    color:cornflowerblue;
+    background-color: lightblue;
+}
+
+
+body{
+    background-color:black;
+}
+
+
+body{
+    background-color: rgb(200,255,0);
+}
+
+
+body{
+    background-color: #ff00ff;
+}
+
+
+* {
+    color: blue;
+}
+
+
+h1 {
+    color: brown;
+}
+
+
+#heading {
+    color: chocolate;
+}
+
+
+.myClass {
+    color: magenta;
+}
+
+/* Use to change the written side /
+p {
+    text-align: right;
+}
+
+
+/* use to perfect side location set sentence /
+h1 {
+    text-align: center;
+}
+
+/*  start & end method this is the use f the paragraph set to (start & end) to set paragraph /
+p {
+    text-align: end;
+}
+
+/* use to underline in any words /
+ h1 {
+    text-align: center;
+    text-decoration: underline;
+ }
+
+ /* use to cut of the words in mid /
+ h1 {
+    text-align: center;
+    text-decoration: line-through;
+ }
+
+
+ /* some case not prefar undeline use this method /
+ a {
+    text-decoration: none;
+ }
+
+                  /* any problem searc google mdn css /
+
+/* use this colur uderline /
+h1 {
+    text-align: center;
+    text-decoration: blue underline;
+}
+
+
+/* This is use to set the weight of line /
+#h1 {
+    /* font-weight: normal; /
+    font-weight: 100;
+}
+
+#h2 {
+    /* font-weight: bold; /
+    font-weight: 400;
+}
+
+#h3 {
+    /* font-weight: bolder; /
+    font-weight: 600;
+}
+
+#h4 {
+    /* font-weight: lighter; /
+    font-weight: 900;
+}
+ */
+
+/* font-family other name ->style */
+/* index 3 /
+#One {
+    font-family: arial;
+}
+
+#Two {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* index 4 /
+
+#One {
+    font-size: 25px;
+}
+
+#Three {
+    font-size: 10px;
+}
+
+/* index 5 /
+
+#One {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+#Three {
+    font-size: 10px;
+}
+
+/* text-tranform : uppercase/lowercase/capitalize/none /
+#One {
+    font-size: 25px;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+#Three {
+    font-size: 10px;
+}
+
+/* index 6 /
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+h1 {
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    border-width: 4px;
+    border-style: dashed;
+    border-color: yellow;
+    text-align: center;
+}
+
+/* Border Shorthand /
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: red; 
+    <!-- border-width: 2px; 
+    border-style: solid;
+    border-color: black; -->
+    border: 2px solid black
+}
+
+
+h1 {
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    border-width: 4px;
+    border-style: dashed;
+    border-color: yellow;
+    text-align: center;
+}
+
+/* index 7 /
+ 
+div {
+    height: 100px;
+    width:100px;
+    background-color: red;
+    border: 2px solid black;
+    <!-- border-radius: 15px; //     create circle use 'border-radius: 50%;' -->
+}
+
+//
+div {
+    height: 100px;
+    width:100px;
+    background-color: red;
+    border: 2px solid black;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+///
+div {
+    height: 100px;
+    width:100px;
+    background-color: red;
+    border: 2px solid black;
+    padding-left: 1px 2px 3px 4px;
+    
+}
+
+/* index 8 /
+
+div {
+    background-color: yellow;
+    display:inline;
+}
+
+button {
+    display: block;
+}
+
+//
+div {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}            /*disply: none; & visiblity: hidden; use to hide in css */
+
+/* index 9 /
+div {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    background-color: rgba(255,0,0,0.5);
+}   
+
+//
+div {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}   
+
+#box1 {
+    background-color: rgba(0,0,255,0.5);
+}
+
+#box2 {
+    background-color: rgba(0,0,255,0.75);
+}
+
+#box3 {
+    background-color: rgba(0,0,255,1);
+}
+
+/* index 10 /
+#box1 {
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
+}
+
+#box2 {
+    /* height: 50px; /
+    width: 30%;
+    background-color: yellow;
+    margin-left: 10%;
+    font-size: 2em;   /* em /
+    width: 5rem;  /* rem /
+    height: 20vh; /* vh: relative to 1% viewport height /
+    width: 30vw;  /* vw: relaive to 1% viweport width /
+}
+
+/* index 11 /
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1 {
+    position: static;    
+            /* This case are not work ("top,right,bottom,left,and z-index properties") /
+}
+
+#box2 {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+#box3 {
+    position: absolute;
+    top: 10px;
+    margin: 0px;
+    bottom: 10px;
+}
+
+#box4 {
+    position: fixed;
+    top: 0px;
+    left: 20px;
+}
+
+#box5 {
+    color: white;
+    position: static;
+    top: 0;
+}
+
+/* index 12 /
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1 {
+    position: static;    
+}
+
+#box2 {
+    position: relative;
+    top: -20px;
+    left: -25px;
+}
+
+#box3 {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    z-index: 3; /* z-index /
+}
+
+#box4 {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+#box5 {
+    color: white;
+    position: static;
+    bottom: 20;
+    left: 30px;
+
+}
+
+/* index 13 /
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1 {
+    background-image: url("x\ image.jpg");
+    background-size: cover;
+}
+
+#box2 {
+    background-image: url("x\ image.jpg");
+    background-size: contain;
+}
+
+#box3 {
+    background-image: url("x\ image.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#box4 {
+    background-image: url("x\ image.jpg");
+    background-size: auto;
+}
+
+#box5 {
+    color: white;
+}
+
+/* index 14 /
+body {
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;            /* direction this case (left to right) /
+    flex-direction: row-reverse;   /* direction this case (right to left) /
+    flex-direction: column;       /* this case are use to change direction (top to bottom) or horizontal to vertical /
+    flex-direction: column-reverse;  /* This case are use to cange direction (bottom to top) /
+}
+
+#box1 {
+    background-color: aqua;
+}
+
+#box2 {
+    background-color: yellow;
+}
+
+#box3 {
+    background-color: blue;
+}
+
+#box4 {
+    background-color: red;
+}
+
+#box5 {
+    background-color: navy;
+}
+
+/* index 14 part 2 /
+body {
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+#box1 {
+    background-color: aqua;
+}
+
+#box2 {
+    background-color: yellow;
+}
+
+#box3 {
+    background-color: blue;
+}
+
+#box4 {
+    background-color: red;
+}
+
+#box5 {
+    background-color: navy;
+}
+
+/* index 15 /
+div {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+
+@media (width : 600px) {
+    div{
+        background-color: yellow;
+    }
+}
+
+@media (min-width : 800px) {
+    div{
+        background-color: blue
+        ;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 300px){
+    div{
+        background-color: black;
+    }
+}
+
+/* index 16 /
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    /* transition-property: all;
+    transition-duration: 2s;  /* s , ms /
+    transition-timing-function: ease-in; /* more function (ease-in / ease-out / linear / srteps ) /
+    transition-delay: 1s; /
+    transition: all 2s ease-in 1s;
+}
+
+div:hover {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+div:active {
+    background-color: yellow;
+}
+
+/* index 17 /
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* transform: rotate(90deg); /
+    /* rotate: x 180deg; /
+    transition: all 2s ease-in;
+}
+
+div:hover {
+    /* background-color: red;
+    color: white;
+    font-size: 20px; /
+    /* transform: scale(2); /
+    /* transform: translateX(100px); /
+    transform: skew(30deg);
+}
+
+div:active {
+    background-color: yellow;
+}
+
+/* index 18 */
+div {
+    height: 100px;
+    width: 100px;
+    /*border-radius: 50%; /use to create a circle*/
+    background-color: aquamarine;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* animation-name: colorAnimate;
+    animation-duration: 0.5s; */
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: colorAnimate 4s ease-in 0s infinite normal;
+}
+
+/* @keyframes colorAnimate {
+    from { left:0px; 
+    background-color: yellow;
+}
+    to { left: 200px; 
+        background-color: red;
+        color: white;
+    } */
+
+    @keyframes colorAnimate {
+        0% { left:0px; 
+        background-color: yellow;
+    }
+    50% {
+        background-color: blue;
+    }
+        100% { left: 200px; 
+            background-color: red;
+            color: white;
+        }
+
+    div:hover {
+    
+}
+

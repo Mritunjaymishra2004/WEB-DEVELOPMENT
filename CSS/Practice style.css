@@ -1,0 +1,251 @@
+/* Q1 solve /
+#box {
+    background-color: blue;
+}
+
+
+/* Q2 solve /
+                /* option 1 /
+.heading {
+    color: red;          
+}
+                /*  option 2 /
+h1, h2, h3 {
+    color: red;
+}
+
+
+/* Q3 solve /
+
+button {
+    background-color: green;
+}
+
+
+/* Q4 solve /
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* Q5 solve /
+
+* {
+    font-family: "Times New Roman";
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+/* Q6 solve /
+
+* {
+    font-family: "Times New Roman";
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#outer {
+    font-size: 25px;
+}
+
+#inner {
+    font-size: 10px;
+}
+
+/* Q7 solve /
+div {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+ /
+
+/* Q8 solve /
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#navbar {
+    height: 60px;
+    background-color: #0f1111;
+}
+
+button {
+    background-color: #f08804;
+}
+
+#logo {
+    color: #f08804;
+    font-size: 25px;
+}
+
+a {
+    margin-right: 200px;
+    text-decoration: none;
+}
+*/
+/* Q9 solve /
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#navbar {
+    height: 60px;
+    background-color: #0f1111;
+}
+
+button {
+    background-color: #f08804;
+}
+
+#logo {
+    color: #f08804;
+    font-size: 25px;
+}
+
+a {
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+.contentBox {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+} 
+
+#content {
+    height: 500px;
+}
+
+footer {
+    background-color: #0f1111;
+    color: white;    
+    text-align: center;
+}
+
+
+
+/* Q10 solve /
+div {
+    height: 100px;
+    width: 100px;
+    background-image: url(x\ nature.jpg);
+    background-size: cover;
+    position: fixed;
+    right: 0px;
+    top: 50px;
+}
+
+
+
+/* Q11 solve */
+/* div {
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-evenly;
+}/
+
+/*ul {
+
+    background-color: yellow;
+    display: flex;
+}
+//
+.navbar {
+    background-color: yellowgreen; 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+    /* background-color: aqua; /
+} 
+
+.outer {
+    height: 400px;
+    width: 400px;
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    align-self: flex-start;      /* this line code is answer 3 Q /
+}
+
+
+
+/* Q12 solve /
+div {
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+}
+
+@media (max-width: 300px) {
+    div {
+        background-color: green;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    div {
+        background-color: pink;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    div {
+        background-color: red;
+    }
+}
+
+@media (min-width: 600px) {
+    div {
+        background-color: blue;
+    }
+}*/
+
+/* Q13 solve */
+.loader {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid #ffe66d;
+    border-top: 32px solid #4ecdc4;
+    animation: spinAnimate 3s steps(5) 0s infinite normal ;
+}
+
+@keyframes spinAnimate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
