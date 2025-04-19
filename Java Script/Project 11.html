@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ticket Management System</title><link rel="preload" as="image" imagesrcset="https://developergoutam.com/wp-content/uploads/2024/07/post1.png 741w, https://developergoutam.com/wp-content/uploads/2024/07/post1-298x300.png 298w, https://developergoutam.com/wp-content/uploads/2024/07/post1-150x151.png 150w, https://developergoutam.com/wp-content/uploads/2024/07/post1-450x453.png 450w, https://developergoutam.com/wp-content/uploads/2024/07/post1-600x604.png 600w" imagesizes="(max-width: 749px) 100vw, 749px" /><link rel="preload" as="font" href="https://developergoutam.com/wp-content/themes/smart-mag/css/icons/fonts/ts-icons.woff2?v3.0" type="font/woff2" crossorigin="anonymous" />
+<link rel="Project 11 stylesheet" type="text/css" href="Project 11 style.css">
+</head>
+<body>
+                                                         
+
+<div class="background-img">
+<div class="ticket-section">
+    <form id="ticket-form">
+        <h2>Ticket Management System</h2>
+        <input type="text" id="name" placeholder="Name" required><br>
+        <input type="text" id="seat" placeholder="Seat No" required><br>
+        <input type="date" id="date" required><br>
+        <input type="text" id="from" placeholder="From Location" required><br>
+        <input type="text" id="to" placeholder="To Location" required><br>
+        <input type="submit" value="Book Ticket">
+    </form>
+    <button id="view-history-btn">View History</button>
+</div>
+</div>
+<div id="ticket-history" style="display: none;">
+    <h3>Ticket History</h3>
+    <table id="history-table">
+        <thead>
+            <tr>
+                <th>Ticket ID</th>
+                <th>Name</th>
+                <th>Seat No</th>
+                <th>Date</th>
+                <th>From Location</th>
+                <th>To Location</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="history-table-body">
+
+        </tbody>
+    </table>
+</div> <script src="Project 11 .js" defer data-deferred="1"></script>
+</body>
+</html>
